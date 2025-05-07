@@ -52,9 +52,23 @@ body {
 }
 
 .page img{
-	width: 70%;
+	width: 92%;
+    height: 95%;
 	object-fit: cover;
 	margin: auto;
+}
+.cover-front {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  object-position: center; /* Ensures the image stays centered */
 }
 
 .flipbook .page small{
